@@ -45,8 +45,8 @@
     // Logs everything to console
     console.log(newTrain.name);
     console.log(newTrain.destination);
-    console.log("===============" + newTrain.first);
-    console.log("Frequency test" + newTrain.frequency);
+    console.log(newTrain.first);
+    console.log(newTrain.frequency);
   
     // Clears all of the text-boxes
     $("#train-name-input").val("");
